@@ -21,6 +21,6 @@ def run_game():
         # gf.update_screen(ai_settings,screen,ship,bullets)
         ship.update()
         gf.update_bullets(bullets)
-
         gf.update_screen(ai_settings,screen,ship,bullets)
+
 run_game()
