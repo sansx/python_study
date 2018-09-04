@@ -1,0 +1,120 @@
+
+Title:Ask HN: Who is hiring? (September 2018)
+Discussion link:http://news.ycombinator.com/item?id=17902901
+Comments:526
+
+Title:Amazon Sets Its Sights on the $88B Online Ad Market
+Discussion link:http://news.ycombinator.com/item?id=17904752
+Comments:195
+
+Title:Why I never finish my Haskell programs
+Discussion link:http://news.ycombinator.com/item?id=17904580
+Comments:172
+
+Title:A military technique for falling asleep in two minutes
+Discussion link:http://news.ycombinator.com/item?id=17905574
+Comments:105
+
+Title:How to Get Kids to Do Chores: Does the Maya Method Work?
+Discussion link:http://news.ycombinator.com/item?id=17905657
+Comments:89
+
+Title:Show HN: Select Star SQL, an interactive SQL book
+Discussion link:http://news.ycombinator.com/item?id=17905666
+Comments:65
+
+Title:Hard Lessons Breathe New Life Into Retail Stores
+Discussion link:http://news.ycombinator.com/item?id=17904798
+Comments:61
+
+Title:I was told I would become quadriplegic
+Discussion link:http://news.ycombinator.com/item?id=17903847
+Comments:54
+
+Title:Lisp-Flavoured Erlang
+Discussion link:http://news.ycombinator.com/item?id=17901451
+Comments:44
+
+Title:Stellarium Web: Online Planetarium
+Discussion link:http://news.ycombinator.com/item?id=17906113
+Comments:35
+
+Title:Reading with a pencil
+Discussion link:http://news.ycombinator.com/item?id=17905199
+Comments:31
+
+Title:Inside the Whispery, Wonderful Golden Age of ASMR
+Discussion link:http://news.ycombinator.com/item?id=17893633
+Comments:28
+
+Title:Metamolds: Creating ideal 3D printed silicone molds faster and cheaper
+Discussion link:http://news.ycombinator.com/item?id=17904156
+Comments:23
+
+Title:Space station leak caused by drill, not meteorite
+Discussion link:http://news.ycombinator.com/item?id=17906712
+Comments:14
+
+Title:MIT Energy Initiative study reports on the future of nuclear energy
+Discussion link:http://news.ycombinator.com/item?id=17906591
+Comments:12
+
+Title:Tencent loses $20B in value after China attacks myopia with gaming curbs
+Discussion link:http://news.ycombinator.com/item?id=17900613
+Comments:11
+
+Title:The Long Night That Will Last Centuries is Just Beginning
+Discussion link:http://news.ycombinator.com/item?id=17906785
+Comments:9
+
+Title:How LLVM Optimizes a Function
+Discussion link:http://news.ycombinator.com/item?id=17906530
+Comments:8
+
+Title:The New Science of Seeing Around Corners
+Discussion link:http://news.ycombinator.com/item?id=17902177
+Comments:8
+
+Title:Want to Be More Creative? Take a Walk (2014)
+Discussion link:http://news.ycombinator.com/item?id=17900623
+Comments:7
+
+Title:Scientists pioneer a new way to turn sunlight into fuel
+Discussion link:http://news.ycombinator.com/item?id=17906353
+Comments:5
+
+Title:What USAF Bomber Pilots Would Wear During a Nuclear Apocalypse (2017)
+Discussion link:http://news.ycombinator.com/item?id=17901555
+Comments:5
+
+Title:A Containerized Polyglot Microservices on Kubernetes and Service Mesh
+Discussion link:http://news.ycombinator.com/item?id=17906456
+Comments:4
+
+Title:Notes on “A Philosophy of Software Design”
+Discussion link:http://news.ycombinator.com/item?id=17906662
+Comments:4
+
+Title:Anycast TCP
+Discussion link:http://news.ycombinator.com/item?id=17901528
+Comments:4
+
+Title:RPCS3 and Dolphin on macOS using gfx-portability
+Discussion link:http://news.ycombinator.com/item?id=17906397
+Comments:2
+
+Title:Princess Alice disaster: The Thames' 650 forgotten dead
+Discussion link:http://news.ycombinator.com/item?id=17901157
+Comments:0
+
+Title:Wasabi: A Framework for Dynamically Analyzing WebAssembly
+Discussion link:http://news.ycombinator.com/item?id=17905565
+Comments:0
+
+Title:Panfrost on the RK3399 (Meow)
+Discussion link:http://news.ycombinator.com/item?id=17901047
+Comments:0
+
+Title:Treasures from the Color Archive
+Discussion link:http://news.ycombinator.com/item?id=17906910
+Comments:0
