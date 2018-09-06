@@ -19,8 +19,12 @@ def topics(request):
     return render(request, 'learning_logs/topics.html', context)
 
 
-def topic(request, topic_id):
-
+def topic(request, topic_id, entry_id=0):
+    if 'delete' in request.path_info and Entry.objects.get(id=entry_id):
+        entry = Entry.objects.get(id=entry_id)
+        topic = entry.topic 
+        entry.delete()
+        return HttpResponseRedirect(reverse('learning_logs:topic',args=[topic_id]))
     topic = Topic.objects.get(id=topic_id)
     entries = topic.entry_set.order_by('-date_added')
     context = {'topic':topic, 'entries':entries}
@@ -61,9 +65,11 @@ def new_entry(request, topic_id):
 def edit_entry(request, entry_id):
     entry = Entry.objects.get(id=entry_id)
     topic = entry.topic
+    # if  "delete" in request.path_info:
+    #     entry.delete()
+    #     return HttpResponseRedirect(reverse('learning_logs:topic',args=[topic.id]))
     if request.method != 'POST':
         form = EntryForm(instance=entry)
-
     else:
         form = EntryForm(instance=entry, data=request.POST)
         if form.is_valid():

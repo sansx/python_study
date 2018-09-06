@@ -6,7 +6,6 @@
     <form action="{% url 'learning_logs:edit_entry' entry.id %}" method="post">
         {% csrf_token %}
         {{ form.as_p }}
+        <button name="submit">save changes</button>
     </form>
-    <button name="submit">save changes</button>
-
 {% endblock content %}
