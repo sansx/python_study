@@ -15,10 +15,10 @@ def index(request):
 @login_required
 def topics(request):
     # print(str(request.user) == 'admin')
-    if str(request.user) == 'admin':
-        topics = Topic.objects.order_by('date_added')
-    else:
-        topics = Topic.objects.filter(owner=request.user).order_by('date_added')
+    # if str(request.user) == 'admin':
+    #     topics = Topic.objects.order_by('date_added')
+    # else:
+    topics = Topic.objects.filter(owner=request.user).order_by('date_added')
     context = {'topics':topics}
     return render(request, 'learning_logs/topics.html', context)
 

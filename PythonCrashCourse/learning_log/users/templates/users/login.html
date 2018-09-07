@@ -1,6 +1,6 @@
 {% extends 'learning_logs/base.html' %}
 
-{% block content %}
+<!-- {% block con %}
     {% if form.errors %}
     <p>Your username and password didn't match. Please try again.</p>
     {% endif %}
@@ -10,4 +10,24 @@
         <button name="submit">log in</button>
         <input type="hidden" name="next" value="{% url 'learning_logs:index' %}" >
     </form>
+{% endblock con %} -->
+
+{% load bootstrap3 %}
+
+{% block header %}
+<h2>Log in to your account.</h2>
+{% endblock header %}
+
+{% block content %}
+<!-- <div class="text-center"> -->
+<form method="post" action="{% url 'users:login' %}" class="form form-signin" >
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons %}
+    <button name="submit" class="btn btn-primary">log in</button>
+    {% endbuttons %}
+    <input type="hidden" name="next" value="{% url 'learning_logs:index' %}" />
+</form>
+<!-- </div> -->
 {% endblock content %}
+
