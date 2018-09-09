@@ -10,6 +10,7 @@ res = conn.getresponse()
 print(res)
 
 content = res.read()
+
 print(type(content))
 content =  bytes.decode(content).split("\r\n")
 
@@ -19,6 +20,7 @@ content =  bytes.decode(content).split("\r\n")
 
 pattern = "posted @ (\d{4}-\d{2}-\d{2} [0-2]\d:[0-6]\d) Vamei 阅读\((\d+)\) 评论"
 for line in content:
+    print(line+'qwerqw')
     m = re.search(pattern, line)
     if m != None:
         print(m.group(1),m.group(2))
