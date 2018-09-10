@@ -79,6 +79,3 @@ msg["To"] = receiver
 smtp.sendmail(sender_qq_mail, receiver, msg.as_string())
 smtp.quit()
 
-
-
-paswd = "iitgwnbwynbhbfjd"
