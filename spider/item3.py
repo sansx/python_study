@@ -63,7 +63,7 @@ for i in allweather:
 
 mail_content = allstr
 #邮件标题
-mail_title = 'Maxsu的邮件'
+mail_title = 'xiath的邮件'
 
 #ssl登录
 smtp = SMTP_SSL(host_server)
