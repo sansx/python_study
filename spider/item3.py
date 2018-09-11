@@ -88,6 +88,8 @@ def get_timer(hour=6,min=0,sec=0):
     print(int(getsec))
     return int(getsec)
 
+
+# 此处开始准备发送，可以放入while循环，每日提醒
 sleep_time = get_timer(hour=16,min=28,sec=0)
 print("Waiting for send mail")
 sleep(sleep_time)
