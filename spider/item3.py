@@ -55,7 +55,7 @@ def sendmail(**arg):
     args = {}
     args['host_server'] = 'smtp.qq.com'
     args['sender_qq'] = '646924078@qq.com'
-    args['pwd'] = ''
+    args['pwd'] = 'tnrxeujhzsombfec'
     args['sender_qq_mail'] = '646924078@qq.com'
     args['receiver'] = '646924078@qq.com'
     args['mail_content'] = "mail test"
@@ -90,7 +90,7 @@ def get_timer(hour=6,min=0,sec=0):
 
 
 # 此处开始准备发送，可以放入while循环，每日提醒
-sleep_time = get_timer(hour=16,min=28,sec=0)
+sleep_time = get_timer(hour=22,min=18,sec=0)
 print("Waiting for send mail")
 sleep(sleep_time)
 
@@ -104,7 +104,7 @@ for i in allweather:
     allstr += tostr + "\n"
 
 
-sendmail(mail_content = allstr, receiver='378561852@qq.com')
+sendmail(mail_content = allstr)
 
 print("Send successfully")
 # print(abs(-100))
