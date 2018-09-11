@@ -6,12 +6,13 @@ from functools import reduce
 from email.mime.text import MIMEText
 from email.header import Header
 from smtplib import SMTP_SSL
-
+import datetime
 
 url = 'http://weather.sina.com.cn/wenzhou'
 r = requests.get(url, stream=True)
 d = bytes.decode(r.content)
-
+theTime = datetime.datetime.now().strftime('%H:%M:%S')
+print(theTime)
 
 getall = "\<div class=\"blk_fc_c0_i\" \>[\s\S]*?\<\/div\>"
 getdate = "[\s\S]*?wt_fc_c0_i_date\"\>(\d{2}-\d{2})"
@@ -20,7 +21,7 @@ getweather = "[\s\S]*?icons0_wt png24.{50,100} title=\"(.{2,4})\"\>"
 gettemp = "[\s\S]*?wt_fc_c0_i_temp\"\>(.{5,15})\<"
 
 d = re.findall(getall,d)
-print(len(d))
+# print(len(d))
 with codecs.open("./weather.json",'w','utf-8') as f:
     allweather = {}
     for index,line in enumerate(d):
@@ -54,7 +55,7 @@ receiver = '646924078@qq.com'
 #邮件的正文内容
 # mail_content = '你好，这是使用python登录qq邮箱发邮件的测试'
 allstr = ""
-print(type(allweather))
+# print(type(allweather))
 for i in allweather:
     tostr = ""
     for b in allweather[i]:
@@ -78,4 +79,5 @@ msg["From"] = sender_qq_mail
 msg["To"] = receiver
 smtp.sendmail(sender_qq_mail, receiver, msg.as_string())
 smtp.quit()
+
 
