@@ -107,6 +107,7 @@ for i in allweather:
 sendmail(mail_content = allstr)
 
 print("Send successfully")
+sleep(1)
 # print(abs(-100))
 
 
