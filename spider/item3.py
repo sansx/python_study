@@ -85,7 +85,7 @@ def get_timer(hour=6,min=0,sec=0):
     getsec = (datetime.datetime(toyear,tomo,today,hour,min,sec)-datetime.datetime.now()).total_seconds()
     if getsec < 0:
         getsec = (datetime.datetime(toyear,tomo,today,hour,min,sec) + datetime.timedelta(days=1) - datetime.datetime.now()).total_seconds()
-    print(int(getsec))
+    # print(int(getsec))
     return int(getsec)
 
 
