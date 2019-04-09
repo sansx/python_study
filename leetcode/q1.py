@@ -13,7 +13,7 @@ class Solution(object):
         """
         aa = self.getnum(nums, target)
         if aa != None:
-            return [nums.index(aa[0]),nums.index(aa[1],nums.index(aa[0]))]
+            return [nums.index(aa[0]),nums.index(aa[1],nums.index(aa[0])+1)]
         return None
 
 
